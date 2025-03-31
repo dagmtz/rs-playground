@@ -14,8 +14,8 @@ fn main() {
     let x: i32 = input_line.trim().parse().expect("Input not an integer");
 
     if (x % 2) == 0 {
-        println!("{} is \x1b[1modd\x1b[0m!", x);      
+        println!("{} is \x1b[1meven\x1b[0m!", x);      
     } else {
-        println!("{} is \x1b[1meven\x1b[0m!", x);
+        println!("{} is \x1b[1modd\x1b[0m!", x);
     }    
 }
